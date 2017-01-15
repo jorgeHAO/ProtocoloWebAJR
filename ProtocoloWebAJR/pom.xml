@@ -28,7 +28,7 @@
 		<thymeleaf-layout-dialect.version>2.1.1</thymeleaf-layout-dialect.version>
 		
 		<!-- SQL Server JDBC -->
-<!-- 		<sql.version>4.0</sql.version> -->
+		<sql.version>4.0</sql.version>
 	</properties>
 
 	<dependencies>
@@ -62,11 +62,11 @@
 		</dependency>
 
 		<!-- SQL Server JDBC -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>com.microsoft.sqlserver</groupId> -->
-<!-- 			<artifactId>sqljdbc4</artifactId> -->
-<!-- 			<version>${sql.version}</version> -->
-<!-- 		</dependency> -->
+		<dependency>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>sqljdbc4</artifactId>
+			<version>${sql.version}</version>
+		</dependency>
 
 	</dependencies>
 
